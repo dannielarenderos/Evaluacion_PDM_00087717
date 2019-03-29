@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="Contador de Productos"
+
+android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+
+            android:id="@+id/Prod_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P1"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Prod_2"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Prod_3"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P3"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/Prod_4"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P4"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Prod_5"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P5"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Prod_6"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/Prod_7"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Prod_8"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P8"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Prod_9"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Producto" />
+
+
+            <TextView
+                android:id="@+id/P9"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribir user"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribir user"/>
+
+
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
